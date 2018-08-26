@@ -1,0 +1,5 @@
+LIBRARY ConsoleHookDLL
+EXPORTS
+MyHook	@33
+SECTIONS
+MySec Read WRITE shared

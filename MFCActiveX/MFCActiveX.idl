@@ -1,0 +1,58 @@
+// MFCActiveX.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (MFCActiveX.tlb) that will become a resource in
+// MFCActiveX.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(CA8946A9-F367-44BB-9E44-A03F5E9D2431), version(1.0),
+  control ]
+library MFCActiveXLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Primary dispatch interface for CMFCActiveXCtrl
+	[ 
+		uuid(21D17C7A-5F34-4930-ADBC-8CBCD7F2DCB3)	
+	]
+	dispinterface _DMFCActiveX
+	{
+		properties:
+			[id(DISPID_FORECOLOR), bindable, requestedit] OLE_COLOR ForeColor;
+			[id(DISPID_BACKCOLOR), bindable, requestedit] OLE_COLOR BackColor;
+			[id(3) ] SHORT myinterval;
+	methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(2)] void Hello(void);//VB中看不到这个方法??????????
+	};
+
+	//  Event dispatch interface for CMFCActiveXCtrl
+
+	[ 
+		uuid(DA6F834D-B2A7-44C4-8048-0FB306215D71)	
+	]
+	dispinterface _DMFCActiveXEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			 
+			[id(DISPID_CLICK)] void Click(void);//是右击XXXCtrl类->add->add Event,只在ActiveX Control Test Container中测试可以,VB中报错
+			[id(1)] void NewMinute(void);//只在ActiveX Control Test Container中测试可以,VB中报错
+	};
+
+	//  Class information for CMFCActiveXCtrl
+	[
+		uuid(603943F6-2DA0-4936-BD18-DAE8B9BACBF5)
+	]
+	coclass MFCActiveX
+	{
+		[default] dispinterface _DMFCActiveX;
+		[default, source] dispinterface _DMFCActiveXEvents;
+	};
+
+};

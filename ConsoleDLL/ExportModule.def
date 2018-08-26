@@ -1,0 +1,4 @@
+LIBRARY ConsoleDLL
+EXPORTS
+multi
+

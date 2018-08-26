@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\other">
+      <UniqueIdentifier>{6f6de3dc-82be-4622-834f-b9deab61a31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\odbc">
+      <UniqueIdentifier>{2f39366f-7c67-4cbf-b8a1-42b299867f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\socket">
+      <UniqueIdentifier>{24345bf2-48df-439e-a242-314538d58af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{d2f3bb43-82cb-4100-bebb-5ad07cfeaf4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="thread\ThreadMutex.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\ThreadEvent.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\ThreadCriticalDieLock.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\ThreadCritical.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\TcpClient.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\TcpServer.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\UdpClient.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\UdpServer.cpp">
+      <Filter>Source Files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="odbc\SQLBindCol_ref.cpp">
+      <Filter>Source Files\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="odbc\SQLBindParameter_Function.cpp">
+      <Filter>Source Files\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="odbc\SQLConnect_ref.cpp">
+      <Filter>Source Files\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="odbc\SQLPutData.cpp">
+      <Filter>Source Files\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="odbc\SQLTables.cpp">
+      <Filter>Source Files\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="other\w32_64Judge.cpp">
+      <Filter>Source Files\other</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chinese.cpp">
+      <Filter>Source Files\other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="事务_GetCLob_存过程的输出_得到查到的列名_类型_VisualStudio_SQLServer成功.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
