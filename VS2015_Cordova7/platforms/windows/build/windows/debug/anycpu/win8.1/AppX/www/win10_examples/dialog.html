@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf8"> 
+    <title>Battery Status</title>
+ 
+ 
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    function out(txt)
+    {
+    	var pre=document.getElementById("textOut").innerHTML;
+    	document.getElementById("textOut").innerHTML=pre+"<br/>"+txt;
+    }
+    
+    function alertDismissed() {
+    	out("you clicked the button");
+    }
+    
+    function showAlert( )
+    {
+    	  navigator.notification.alert(
+    	    	    'You are the winner!',  // message
+    	    	    alertDismissed,         // callback
+    	    	    'Game Over',            // title
+    	    	    'Done'                  // buttonName
+    	    	);
+    }
+    function onPrompt(results) {
+        alert("You selected button number " + results.buttonIndex + " and entered " + results.input1);
+    }
+    function showPrompt( )
+    {
+    	 navigator.notification.prompt(
+    		        'Please enter your name',  // message
+    		        onPrompt,                  // callback to invoke
+    		        'Registration',            // title
+    		        ['Ok','Exit'],             // buttonLabels
+    		        'Jane Doe'                 // defaultText
+    		    );
+    }
+   
+    
+    </script>
+  </head>
+  <body>
+    <p id="textOut">waiting  log</p>
+     <button onclick="showAlert()">showAlert OK</button>
+     <button onclick="showPrompt()">showPrompt  ???</button>
+     
+     <button onclick="history.back()">go back</button>
+      
+  </body>
+</html>

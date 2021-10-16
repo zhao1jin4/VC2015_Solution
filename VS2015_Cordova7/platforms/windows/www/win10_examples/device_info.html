@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Device Properties Example</title>
+
+ 
+
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+
+        // Wait for Cordova to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        // Cordova is ready
+        //
+        function onDeviceReady() {
+            var element = document.getElementById('deviceProperties');
+
+            element.innerHTML =  'Device Cordova: ' + device.cordova + '<br />' +   
+                                'Device Platform: ' + device.platform + '<br />' +   
+                                'Device UUID: ' + device.uuid + '<br />' +   
+                                'Device Model: ' + device.model + '<br />' +   
+                                'Device Version: ' + device.version + '<br />';  
+        }
+        /*
+     Device Cordova: 3.5.0
+    Device Platform: windows8
+    Device UUID: 050055c0-0600-0100-40d6-0001ffdd0004
+    Device Model: Win64
+    Device Version: 6.3.9600.16384
+        */
+
+    </script>
+</head>
+<body>
+    <p id="deviceProperties">Loading device properties...</p>
+
+
+    <button onclick="history.back()">go back</button>
+</body>
+</html>

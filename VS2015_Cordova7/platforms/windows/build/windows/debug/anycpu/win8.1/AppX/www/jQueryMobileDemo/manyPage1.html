@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" href="css/jquery.mobile-1.3.0.css" />
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery.mobile-1.3.0.js"></script>
+	
+</head> 
+<body> 
+<div data-role="page" id="one">
+	<div data-role="header">
+		<h1>Multi-page</h1>
+	</div>
+	<div data-role="content" >	
+		<h2>One</h2>
+		<p>You link to internal pages by referring to the ID of the page you want to show. For example, to <a href="#two" >link</a> to the page with an ID of "two", my link would have a <code>href="#two"</code> in the code.</p>	
+ 
+		<h3>Show internal pages:</h3>
+		<p><a href="#two" data-role="button">Show page "two"</a></p>	
+		<p><a href="#popup" data-role="button" data-rel="dialog" data-transition="pop">Show page "popup" (as a dialog)</a></p>
+		<!-- data-rel="dialog" data-transition="pop" 弹出对话框 -->
+	</div>
+	
+	<div data-role="footer" data-theme="d">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+ 
+ 
+<div data-role="page" id="two" data-theme="a">
+ 
+	<div data-role="header">
+		<h1>Two</h1>
+	</div>
+ 
+	<div data-role="content" data-theme="a">	
+		<h2>Two</h2>
+		<p>Notice that the theme is different for this page because we've added a few <code>data-theme</code> swatch assigments here to show off how flexible it is. You can add any content or widget to these pages, but we're keeping these simple.</p>	
+		<p><a href="#one"   data-role="button" data-theme="b">Back to page "one"</a></p>	
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+ 
+ 
+<div data-role="page" id="popup" data-close-btn="right" data-corners="false"> <!--data-close-btn="right" 关闭按钮"x"的位置,可 none 不要 -->
+	<div data-role="header" data-theme="e"> <!-- data-theme="e" -->
+		<h1>Dialog</h1>
+	</div>
+	<div data-role="content" data-theme="d">	
+		<h2>Popup</h2>
+		<p>I have an id of "popup" on my page container and only look like a dialog because the link to me had a <code>data-rel="dialog"</code> attribute which gives me this inset look and a <code>data-transition="pop"</code> attribute to change the transition to pop. Without this, I'd be styled as a normal page.</p>		
+		<p><a href="#one"   data-role="button" data-inline="true" data-icon="back">Back to page "one"</a></p>
+		<!-- data-inline="true" 按钮长度是文本的长度, data-icon="back" 在按钮左显示返回图标
+			其它图标有plus ,minus ,delete,arrow-l,arrow-r,arrow-u,arrow-d,check ,gear(齿轮)
+			,refresh,forward,back ,grid ,star ,alert ,info ,home ,search,bars ,edit 
+			-->	
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+</body>
+</html>

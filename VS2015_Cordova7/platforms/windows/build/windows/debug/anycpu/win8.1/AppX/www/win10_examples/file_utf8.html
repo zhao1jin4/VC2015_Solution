@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Battery Status</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+        var localIP = "192.168.11.229";
+
+        function out(txt) {
+            var pre = document.getElementById("textOut").innerHTML;
+            document.getElementById("textOut").innerHTML = pre + "<br/>" + txt;
+        }
+
+        var win = function (r) {
+            out("Code = " + r.responseCode);
+            out("Response = " + r.response);
+            out("Sent = " + r.bytesSent);
+        }
+        var fail = function (error) {
+           // alert("An error has occurred: Code = " + error.code);//3=FileTransferError.CONNECTION_ERR
+            out("An error has occurred: Code = " + error.code);
+            out("upload error source " + error.source);
+            out("upload error target " + error.target);
+        }
+        /*
+	function showAndroidVar()
+	{
+    	//ios and android
+    	out("applicationDirectory="+  cordova.file.applicationDirectory);
+    	out("applicationStorageDirectory="+  cordova.file.applicationStorageDirectory);
+    	out("dataDirectory="+  cordova.file.dataDirectory);
+
+    	//only android
+    	out( "externalApplicationStorageDirectory="+ cordova.file.externalApplicationStorageDirectory)
+	 	out( "externalDataDirectory="+  cordova.file.externalDataDirectory );
+		out( "externalCacheDirectory="+  cordova.file.externalCacheDirectory );
+	}
+
+    function fileUploadAndroidiOS()
+    {
+    	var uri = encodeURI("http://"+localIP+":8080/J_JavaEE/upload");
+    	var fileURL="storage/sdcard0/e2fsck_log/Info.txt";
+
+    	var options = new FileUploadOptions();
+    	options.fileKey="file";
+    	options.fileName=fileURL.substr(fileURL.lastIndexOf('/')+1);
+    	options.mimeType="text/plain";
+
+    	var headers={'headerParam':'headerValue'};
+
+    	options.headers = headers;
+
+    	var ft = new FileTransfer();
+    	ft.onprogress = function(progressEvent) {
+    	    if (progressEvent.lengthComputable) {
+    	      loadingStatus.setPercentage(progressEvent.loaded / progressEvent.total);
+    	    } else {
+    	      loadingStatus.increment();
+    	    }
+    	};
+    	ft.upload(fileURL, uri, win, fail, options);
+    }
+	*/
+        function fileUpload() {
+            var uri = encodeURI("http://" + localIP + ":8080/J_JavaEE/upload");
+            var fileURL = "c:/temp/upload测试.txt";
+
+            var options = new FileUploadOptions();
+            options.fileKey = "file";
+            options.fileName = fileURL.substr(fileURL.lastIndexOf('/') + 1);
+            options.mimeType = "text/plain";
+
+            var params = {};
+            params.value1 = "test";
+            params.value2 = "param";
+
+            options.params = params;
+
+            var ft = new FileTransfer();
+            ft.upload(fileURL, uri, win, fail, options);
+        }
+        function download() {
+            var fileURL = "c:/temp/downfromServer.txt";
+            var fileTransfer = new FileTransfer();
+            var uri = encodeURI("http://" + localIP + ":8080/J_JavaEE/download");
+
+            fileTransfer.download(
+                uri,
+                fileURL,
+                function (entry) {
+                    out("download complete: " + entry.toURL());
+                },
+                function (error) {
+                    out("download error source " + error.source);
+                    out("download error target " + error.target);
+                    out("upload error code" + error.code);
+                },
+                false,
+                {
+                    headers: {
+                        // "Authorization": "Basic dGVzdHVzZXJuYW1lOnRlc3RwYXNzd29yZA=="
+                    }
+                }
+            );
+        }
+
+    </script>
+</head>
+<body>
+    <p id="textOut">waiting  log</p>
+    <!--
+     <button onclick="showAndroidVar();">showAndroidVar</button> <br/>
+     <button onclick="fileUploadAndroidiOS()">fileUploadAndroidiOS</button> <br/>
+     -->
+
+    <button onclick="fileUpload()">fileUpload__ have error no mesasge</button>	<br />
+    <button onclick="download()">download  no react</button> <br />
+
+    <button onclick="history.back()">go back</button>
+
+</body>
+</html>

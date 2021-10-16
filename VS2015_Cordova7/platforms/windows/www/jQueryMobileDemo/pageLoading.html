@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" href="css/jquery.mobile-1.3.0.css" />
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery.mobile-1.3.0.js"></script>
+
+	
+	<script type="text/javascript">
+ 
+/*
+	$( document ).bind( 'mobileinit', function()//只对手机初始化
+		{
+			alert('hello');
+			  $.mobile.loader.prototype.options.text = "loading";
+			  $.mobile.loader.prototype.options.textVisible = false;
+			  $.mobile.loader.prototype.options.theme = "a";
+			  $.mobile.loader.prototype.options.html = "";
+		});
+*/
+	$(document).on("click", ".show-page-loading-msg", function() 
+				{
+					//$.mobile.loading( 'show', { theme: "b", text: "foo", textonly: true });
+					$.mobile.loading( 'show', {
+						//html: "<font color='red'>这是HTML格式的</font>",
+						html: "",//如有text的值,这个要为空
+						text: 'foo',//加载界面的提示文本
+						textVisible: true,
+						textonly:false,
+						theme: 'b'
+					});
+				})
+			.on("click", ".hide-page-loading-msg", function() 
+				{
+					$.mobile.loading( 'hide' );
+				});
+				
+$(document).on("click", ".show-custom-loading-msg", function() 
+		{
+			 var html =$( this ).jqmData("html");//得到标签中data-html设置的值
+			$.mobile.loading( 'show', {
+				html: html,
+				textVisible: true,
+				textonly:false,
+				theme: 'b'
+			});
+		})
+	.on("click", ".hide-custom-loading-msg", function() 
+		{
+			$.mobile.loading( 'hide' );
+		});
+		
+		 
+	</script>
+</head> 
+<body> 
+<div data-role="page" id="one">
+	<div data-role="header">
+		<h1>page Loading</h1>
+	</div>
+	<div data-role="content" >
+		<a href="index.html">回主页</a>
+		<br/>
+		
+		<div data-role="controlgroup"> <!--  data-role="controlgroup"  -->
+			<!-- data-iconpos="right"-->
+			<button class="show-page-loading-msg" data-icon="arrow-r" data-iconpos="right" >Default loader</button>
+			<button class="hide-page-loading-msg" data-icon="delete" data-iconpos="right" >Hide</button>
+		
+			<br/>
+		
+			<button class="show-custom-loading-msg" data-theme="c" data-textonly="true" data-textvisible="true" data-msgtext="Custom Loader" data-inline="true" 
+					data-html="<span class='ui-bar ui-shadow ui-overlay-d ui-corner-all'><img src='assets/jquery-logo.png' /><h2>is loading for you ...</h2></span>" data-iconpos="right">Custom HTML</button>
+			<button class="hide-custom-loading-msg" data-inline="true" data-icon="delete">Hide</button>
+
+		</div>
+	</div>
+	<div data-role="footer" data-theme="d">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+</body>
+</html>

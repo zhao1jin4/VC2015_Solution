@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Net Info</title>
+
+
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        function out(txt) {
+            var pre = document.getElementById("textOut").innerHTML;
+            document.getElementById("textOut").innerHTML = pre + "<br/>" + txt;
+        }
+
+        document.addEventListener("offline", onOffline, false);//当3G,或者wifi网络打开,或者关闭时
+        function onOffline() {
+            //alert("offline");
+            out("offline");
+        }
+        document.addEventListener("online", onOnline, false);
+        function onOnline() {
+            //alert("online");
+            out("online");
+        }
+        function checkConnection() {
+            var networkState = navigator.connection.type;
+            var states = {};
+            states[Connection.UNKNOWN] = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI] = 'WiFi connection';
+            states[Connection.CELL_2G] = 'Cell 2G connection';
+            states[Connection.CELL_3G] = 'Cell 3G connection';
+            states[Connection.CELL_4G] = 'Cell 4G connection';
+            states[Connection.CELL] = 'Cell generic connection';
+            states[Connection.NONE] = 'No network connection';
+            //   alert('Connection type: ' + states[networkState]);
+            out('Connection type: ' + states[networkState]);
+        }
+    </script>
+</head>
+<body>
+    <p id="textOut">waiting log</p>
+
+    <button onclick="checkConnection();">  checkConnection;</button> <br />
+
+    <button onclick="history.back()">go back</button>
+
+</body>
+</html>

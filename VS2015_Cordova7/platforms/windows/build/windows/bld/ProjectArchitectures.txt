@@ -1,0 +1,1 @@
+E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\CordovaApp.Windows.jsproj;neutral

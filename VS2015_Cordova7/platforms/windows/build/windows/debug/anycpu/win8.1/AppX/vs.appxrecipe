@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-MVUF82R</Machine>
+    <WindowsUser>zhaojin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>org.zhaojin</PackageIdentityName>
+    <IntermediateOutputPath>E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>59389712CC005DE00189C7F672EC88E4AF9416798EE289FA73D57B1A8C042AC9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>org.zhaojin_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>org.zhaojin_h35559jr9hy9m!org.zhaojin</RegisteredUserModeAppID>
+    <RegisteredPackageID>org.zhaojin</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\build\windows\Debug\AnyCPU\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T08:30:47.890</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\plugins\cordova-plugin-globalization\GlobalizationProxy.winmd">
+      <PackagePath>GlobalizationProxy.winmd</PackagePath>
+      <Modified>2017-10-18T08:23:18.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2017-10-18T07:46:29.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2017-10-18T07:46:29.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-10-18T07:46:29.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+      <Modified>2017-10-18T07:46:29.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\assets\09-chat2.png">
+      <PackagePath>www\jQueryMobileDemo\assets\09-chat2.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\assets\18-envelope.png">
+      <PackagePath>www\jQueryMobileDemo\assets\18-envelope.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\assets\gf.png">
+      <PackagePath>www\jQueryMobileDemo\assets\gf.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\assets\jquery-logo.png">
+      <PackagePath>www\jQueryMobileDemo\assets\jquery-logo.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\images\icons-18-black.png">
+      <PackagePath>www\jQueryMobileDemo\css\images\icons-18-black.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\images\icons-18-white.png">
+      <PackagePath>www\jQueryMobileDemo\css\images\icons-18-white.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\images\icons-36-black.png">
+      <PackagePath>www\jQueryMobileDemo\css\images\icons-36-black.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\images\icons-36-white.png">
+      <PackagePath>www\jQueryMobileDemo\css\images\icons-36-white.png</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+      <Modified>2017-10-18T07:46:30.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2017-10-18T07:46:30.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2017-10-18T08:24:30.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\js\jquery-1.9.1.js">
+      <PackagePath>www\jQueryMobileDemo\js\jquery-1.9.1.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\js\jquery.mobile-1.3.0.js">
+      <PackagePath>www\jQueryMobileDemo\js\jquery.mobile-1.3.0.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-battery-status\src\windows\BatteryProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-battery-status\src\windows\BatteryProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:26.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-battery-status\www\battery.js">
+      <PackagePath>www\plugins\cordova-plugin-battery-status\www\battery.js</PackagePath>
+      <Modified>2017-10-18T08:23:26.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-camera\www\Camera.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\Camera.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraConstants.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraConstants.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js</PackagePath>
+      <Modified>2017-10-18T08:23:02.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\src\windows\ContactProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\src\windows\ContactProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\Contact.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\Contact.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactAddress.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactAddress.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactError.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactError.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactField.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactField.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactFieldType.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactFieldType.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactFindOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactFindOptions.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactName.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactName.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\ContactOrganization.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\ContactOrganization.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\contacts.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\contacts.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-contacts\www\convertUtils.js">
+      <PackagePath>www\plugins\cordova-plugin-contacts\www\convertUtils.js</PackagePath>
+      <Modified>2017-10-18T08:23:34.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file-transfer\src\windows\FileTransferProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-file-transfer\src\windows\FileTransferProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file-transfer\www\FileTransfer.js">
+      <PackagePath>www\plugins\cordova-plugin-file-transfer\www\FileTransfer.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file-transfer\www\FileTransferError.js">
+      <PackagePath>www\plugins\cordova-plugin-file-transfer\www\FileTransferError.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\src\windows\FileProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-file\src\windows\FileProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\browser\isChrome.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\browser\isChrome.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryEntry.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryReader.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\Entry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Entry.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\File.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\File.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileEntry.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileError.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileError.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileReader.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileSystem.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystemPaths.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystemPaths.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystems.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystems.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadOptions.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadResult.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadResult.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\FileWriter.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileWriter.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\Flags.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Flags.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\LocalFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\LocalFileSystem.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\Metadata.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Metadata.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\ProgressEvent.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\ProgressEvent.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\requestFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\requestFileSystem.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js</PackagePath>
+      <Modified>2017-10-18T08:23:50.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:10.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
+      <Modified>2017-10-18T08:23:10.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
+      <Modified>2017-10-18T08:23:10.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Position.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
+      <Modified>2017-10-18T08:23:10.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
+      <Modified>2017-10-18T08:23:10.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-globalization\src\windows\GlobalizationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-globalization\src\windows\GlobalizationProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:18.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-globalization\www\globalization.js">
+      <PackagePath>www\plugins\cordova-plugin-globalization\www\globalization.js</PackagePath>
+      <Modified>2017-10-18T08:23:18.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-globalization\www\GlobalizationError.js">
+      <PackagePath>www\plugins\cordova-plugin-globalization\www\GlobalizationError.js</PackagePath>
+      <Modified>2017-10-18T08:23:18.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+      <Modified>2017-10-18T08:23:57.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+      <Modified>2017-10-18T08:23:57.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\src\windows\CaptureProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\src\windows\CaptureProxy.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\src\windows\MediaFile.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\src\windows\MediaFile.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\capture.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\capture.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\CaptureAudioOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\CaptureAudioOptions.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\CaptureError.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\CaptureError.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\CaptureImageOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\CaptureImageOptions.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\CaptureVideoOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\CaptureVideoOptions.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\helpers.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\helpers.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\MediaFile.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\MediaFile.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media-capture\www\MediaFileData.js">
+      <PackagePath>www\plugins\cordova-plugin-media-capture\www\MediaFileData.js</PackagePath>
+      <Modified>2017-10-18T08:24:13.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media\src\windows\MediaProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-media\src\windows\MediaProxy.js</PackagePath>
+      <Modified>2017-10-18T08:24:05.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media\www\Media.js">
+      <PackagePath>www\plugins\cordova-plugin-media\www\Media.js</PackagePath>
+      <Modified>2017-10-18T08:24:05.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-media\www\MediaError.js">
+      <PackagePath>www\plugins\cordova-plugin-media\www\MediaError.js</PackagePath>
+      <Modified>2017-10-18T08:24:05.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-network-information\src\windows\NetworkInfoProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\src\windows\NetworkInfoProxy.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-network-information\www\Connection.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\www\Connection.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-network-information\www\network.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\www\network.js</PackagePath>
+      <Modified>2017-10-18T07:52:07.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2017-10-18T08:24:23.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2017-10-18T08:24:23.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-vibration\src\windows\VibrationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-vibration\src\windows\VibrationProxy.js</PackagePath>
+      <Modified>2017-10-18T08:24:30.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\plugins\cordova-plugin-vibration\www\vibration.js">
+      <PackagePath>www\plugins\cordova-plugin-vibration\www\vibration.js</PackagePath>
+      <Modified>2017-10-18T08:24:30.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2017-10-18T07:46:30.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+      <Modified>2017-10-18T08:23:57.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2017-10-18T07:52:07.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\css\notification.css">
+      <PackagePath>www\css\notification.css</PackagePath>
+      <Modified>2017-10-18T07:52:07.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+      <Modified>2017-10-18T07:46:30.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\jquery.mobile-1.3.0.css">
+      <PackagePath>www\jQueryMobileDemo\css\jquery.mobile-1.3.0.css</PackagePath>
+      <Modified>2017-10-18T08:23:02.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\jquery.mobile.structure-1.3.0.css">
+      <PackagePath>www\jQueryMobileDemo\css\jquery.mobile.structure-1.3.0.css</PackagePath>
+      <Modified>2017-10-18T08:23:02.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\jquery.mobile.theme-1.3.0.css">
+      <PackagePath>www\jQueryMobileDemo\css\jquery.mobile.theme-1.3.0.css</PackagePath>
+      <Modified>2017-10-18T08:23:02.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2017-10-18T08:30:29.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\accordition.html">
+      <PackagePath>www\jQueryMobileDemo\accordition.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\ajax__.html">
+      <PackagePath>www\jQueryMobileDemo\ajax__.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\autocomplete.html">
+      <PackagePath>www\jQueryMobileDemo\autocomplete.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\basic.html">
+      <PackagePath>www\jQueryMobileDemo\basic.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\buttons_theme.html">
+      <PackagePath>www\jQueryMobileDemo\buttons_theme.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\checkboxs.html">
+      <PackagePath>www\jQueryMobileDemo\checkboxs.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\index.html">
+      <PackagePath>www\jQueryMobileDemo\index.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\layout.html">
+      <PackagePath>www\jQueryMobileDemo\layout.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\listview.html">
+      <PackagePath>www\jQueryMobileDemo\listview.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\manyPage.html">
+      <PackagePath>www\jQueryMobileDemo\manyPage.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\manyPage1.html">
+      <PackagePath>www\jQueryMobileDemo\manyPage1.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\map.html">
+      <PackagePath>www\jQueryMobileDemo\map.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\pageLoading.html">
+      <PackagePath>www\jQueryMobileDemo\pageLoading.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\pageTransaction1.html">
+      <PackagePath>www\jQueryMobileDemo\pageTransaction1.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\pageTransaction2.html">
+      <PackagePath>www\jQueryMobileDemo\pageTransaction2.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\panel__.html">
+      <PackagePath>www\jQueryMobileDemo\panel__.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\popup.html">
+      <PackagePath>www\jQueryMobileDemo\popup.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\radiobuttons.html">
+      <PackagePath>www\jQueryMobileDemo\radiobuttons.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\range.html">
+      <PackagePath>www\jQueryMobileDemo\range.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\selects.html">
+      <PackagePath>www\jQueryMobileDemo\selects.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\table.html">
+      <PackagePath>www\jQueryMobileDemo\table.html</PackagePath>
+      <Modified>2017-10-18T08:23:02.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\win10_examples\device_info.html">
+      <PackagePath>www\win10_examples\device_info.html</PackagePath>
+      <Modified>2017-10-18T07:23:49.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\win10_examples\dialog.html">
+      <PackagePath>www\win10_examples\dialog.html</PackagePath>
+      <Modified>2017-10-18T07:23:49.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\win10_examples\file.html">
+      <PackagePath>www\win10_examples\file.html</PackagePath>
+      <Modified>2017-10-18T07:38:36.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\win10_examples\file_utf8.html">
+      <PackagePath>www\win10_examples\file_utf8.html</PackagePath>
+      <Modified>2014-09-11T20:47:51.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\win10_examples\net-info.html">
+      <PackagePath>www\win10_examples\net-info.html</PackagePath>
+      <Modified>2017-10-18T07:39:01.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\win10_examples\splash.html">
+      <PackagePath>www\win10_examples\splash.html</PackagePath>
+      <Modified>2017-10-18T07:39:15.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\assets\album-bb.jpg">
+      <PackagePath>www\jQueryMobileDemo\assets\album-bb.jpg</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\assets\sydney.jpg">
+      <PackagePath>www\jQueryMobileDemo\assets\sydney.jpg</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\www\jQueryMobileDemo\css\images\ajax-loader.gif">
+      <PackagePath>www\jQueryMobileDemo\css\images\ajax-loader.gif</PackagePath>
+      <Modified>2013-09-02T09:57:51.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2017-10-18T07:52:07.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\all_code_workspace\VS2015_Cordova7_2017-10-18_17\VS2015_Cordova7\platforms\windows\build\windows\Debug\AnyCPU\win8.1\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2017-10-18T08:30:46.716</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
